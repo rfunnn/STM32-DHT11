@@ -15,7 +15,5 @@ The DHT11 sensor is ideal for extended temperature and humidity measurement in a
 For the data output, we use asynchronous UART serial communication where the output will be displayed on serial COM in our computer with baud rate of 115200 bits/s.The diagram above shows the pinout view for this project where the data pin of DHT11 is connected at PA1 as GPIO_Input. Then, for UART connectivity, both transmitter and receiver were located at PA9 and PA10. In UART communication, the transmitting UART converts parallel data from a controlling device like a CPU into serial form, transmits it in serial to the receiving UART, which then converts the serial data back into parallel data for the receiving devices. Data flows from the Tx pin of the transmitting UART to the Rx pin of the receiving UART.
 
                           
-	After running the code (as shown in the Source Code section), we get the output like this. The value of this output is incremented by 10 and it is running on Tera Term to display the serial output.
-	
 
 
