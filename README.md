@@ -1,6 +1,6 @@
 # STM32-DHT11
 
-1) Project Background
+## Project Background
 
 This project is about building a room temperature and humidity detector by using STM32, DHT11 and UART serial communication.  The main purpose of building this project is to help people be aware with the temperature rises in their room where this can be very helpful to avoid wildfires from happening.
 
